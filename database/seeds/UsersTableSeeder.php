@@ -15,7 +15,7 @@ class UsersTableSeeder extends Seeder
         $faker = app(Faker\Generator::class);
 
         // 头像假数据
-        $avatars = [
+        $avatars = [ 
             'https://cdn.learnku.com/uploads/images/201710/14/1/s5ehp11z6s.png',
             'https://cdn.learnku.com/uploads/images/201710/14/1/Lhd1SHqu86.png',
             'https://cdn.learnku.com/uploads/images/201710/14/1/LOnMrqbHJn.png',
