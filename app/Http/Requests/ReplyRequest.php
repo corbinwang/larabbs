@@ -12,7 +12,7 @@ class ReplyRequest extends Request
             case 'POST':
             {
                 return [
-                    // CREATE ROLES
+                    'content' => 'required|min:2',
                 ];
             }
             // UPDATE
@@ -20,7 +20,7 @@ class ReplyRequest extends Request
             case 'PATCH':
             {
                 return [
-                    // UPDATE ROLES
+                   'content' => 'required|min:2',
                 ];
             }
             case 'GET':
