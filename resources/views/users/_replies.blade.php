@@ -19,9 +19,7 @@
   </ul>
 
 @else
-  <div class="empty-block">暂无数据 ~_~ </div>
-@endif
-
+  < 
 {{-- 分页 --}}
 <div class="mt-4 pt-1">
   {!! $replies->appends(Request::except('page'))->render() !!}
