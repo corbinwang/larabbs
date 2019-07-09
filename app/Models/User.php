@@ -59,7 +59,7 @@ class User extends Authenticatable implements MustVerifyEmailContract
 
     public function notify($instance)
     {
-        if($this->is == Auth::id)
+        if($this->id == Auth::id())
         {
             return;
         }
